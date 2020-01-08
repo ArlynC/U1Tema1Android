@@ -14,6 +14,7 @@ public class manipulacion1 extends AppCompatActivity {
     EditText edtmonto;
     TextView txtresultado;
     Button btnejecutar;
+    Button btncambiarpropiedad;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class manipulacion1 extends AppCompatActivity {
         edtmonto=findViewById(R.id.edtmonto);
         txtresultado=findViewById(R.id.txtResultado);
         btnejecutar=findViewById(R.id.btncambiar);
+        btncambiarpropiedad=findViewById(R.id.button3);
         btnejecutar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,6 +33,19 @@ public class manipulacion1 extends AppCompatActivity {
                         " dolares equivale a " + cambio.toString() + "Soles");
             }
         });
+    }
+    int i=0;
+    public void ocultar(View view){
+        if(i==0) {
+            btnejecutar.setVisibility(View.GONE);
+            btncambiarpropiedad.setText("Mostrar");
+            i=1;
+        }
+        else{
+            btnejecutar.setVisibility(View.GONE);
+            btncambiarpropiedad.setText("Ocultar");
+            i=0;
+        }
     }
 
 }

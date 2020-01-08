@@ -71,4 +71,7 @@ public class Actividad3 extends AppCompatActivity {
     public void manipulacion(View view) {
         startActivity(new Intent(this, manipulacion1.class));
     }
+    public void salir(View view){
+        finish();
+    }
 }
