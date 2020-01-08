@@ -32,7 +32,8 @@
     <Button android:id="@+id/button02"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion2"/>
+        android:text="@string/opcion2"
+        android:onClick="manipulacion"/>
     <Button android:id="@+id/button03"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
