@@ -74,4 +74,8 @@ public class Actividad3 extends AppCompatActivity {
     public void salir(View view){
         finish();
     }
+
+    public void comunicacion(View view) {
+        startActivity(new Intent(this, Comunicacion1.class));
+    }
 }

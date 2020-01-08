@@ -1,6 +1,7 @@
 <resources>
     <string name="opcion1">Actividad 2</string>
     <string name="opcion2">Manipulando elementos por codigo</string>
+    <string name="comunicacion">Comunicacion1</string>
     <string name="Salir">Salir</string>
     <string name="tituloAplicacion">Mi primera app</string>
     <string name="app_name">Mi app</string>
